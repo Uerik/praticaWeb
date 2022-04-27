@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+/* logo urk inicio*/
+.titulo1 {
+  text-align: center;
+  font-size: 80px;
+  margin: 0 0 -15px 0;
+}
+.titulo2 {
+  text-align: center;
+  margin: 0;
+}
+/* logo urk fim*/
+
+/* container */
+.container-bor {
+  border-style: solid;
+}
+.container {
+  margin: 0 1% 0 5%;
+  width: 500px;
+}
+.container-flex {
+  display: flex;
+  padding: 2% 0;
+}
+/* container */
+
+/*inicio input*/
+#textoinput {
+  margin: 7px;
+  border-radius: 15px;
+}
+/*fim input*/
+
+/*inicio btn*/
+#limpar,
+#calcular {
+  margin: 7px;
+  padding: 10px;
+  border-radius: 5px;
+}
+/*fim btn*/
+
+/* texto overflow */
+.txt {
+  overflow-wrap: break-word;
+}
+.txt-center {
+  text-align: center;
+  margin: 0;
+}
+/* texto overflow */
+/* inicio footer */
+.fim {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+/* fim footer */
+/*inicio voltando para portifolio*/
+#back-button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+#back-button:hover {
+  color: rgb(0, 255, 0);
+  background-color: rgb(48, 47, 47);
+  padding: 7px;
+}
+
+/*fim voltando para o portifolio*/
