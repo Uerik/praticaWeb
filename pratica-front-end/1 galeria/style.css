@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+.titulo-over {
+  margin: 0;
+  width: 50%;
+}
+.titulo-over:hover {
+  color: palevioletred;
+}
+
+/* texto overflow */
+.txt {
+  overflow-wrap: break-word;
+}
+.txt-center {
+  text-align: center;
+  margin: 0;
+}
+
+/* container */
+.container-bor {
+  border-style: solid;
+}
+.container {
+  margin: 0 1% 0 5%;
+}
+.container-flex {
+  display: flex;
+  padding: 2% 0;
+  width: fit-content;
+}
+.container-flex div {
+  width: 95%;
+}
+/* container */
+
+/* img */
+img {
+  height: 300px;
+  width: fit-content;
+}
+/* img */
+
+/*setas*/
+.seta {
+  height: 300px;
+  width: 30px;
+  border-radius: 4px;
+}
+.seta:hover {
+  background-color: white;
+}
+.seta img {
+  height: 15px;
+}
+/*setas*/
+
+/*inicio voltando para portifolio*/
+/* inicio footer */
+.fim {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+/* fim footer */

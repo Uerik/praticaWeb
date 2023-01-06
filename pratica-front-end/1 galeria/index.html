@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Galeria</title>
+  </head>
+  <body>
+    <div class="container-bor container">
+      <h1 class="titulo-over">GALERIA BLACKPINK</h1>
+      <p id="nome"></p>
+
+      <div class="container-flex">
+        <!-- seta esquerda -->
+        <button class="seta" onclick="preview()">
+          <img
+            src="https://w7.pngwing.com/pngs/111/598/png-transparent-arrow-computer-icons-left-arrow-angle-text-rectangle-thumbnail.png"
+            alt="seta esquerda"
+            id="seta-esquerda"
+          />
+        </button>
+        <!-- imagens galeria -->
+        <div>
+          <img
+            src="http://personaunesp.com.br/wp-content/uploads/2020/10/imagem-1-4.jpg"
+            alt=""
+            id="primeira"
+          />
+        </div>
+        <!-- seta direita -->
+        <button class="seta" onclick="next()">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/2089/2089678.png"
+            alt="seta direira"
+            id="seta-direita"
+          />
+        </button>
+      </div>
+    </div>
+    <footer class="fim">
+      <!-- Copyright -->
+      <p class="txt-center">© 2020 Copyright: Eric Merchant</p>
+      <!-- Copyright -->
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
