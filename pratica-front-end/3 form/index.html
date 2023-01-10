@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Login</title>
+  </head>
+  <body>
+    <!-- pagina de login -->
+    <article id="login" class="container-bor container">
+      <h1>Form Login</h1>
+      <div id="corpo-form">
+        <label for="lname">Login:</label>
+        <input type="text" name="lname" id="lname" placeholder="Login" /><br />
+        <label for="lpassword">Password:</label>
+        <input
+          type="password"
+          name="lpassword"
+          id="lpassword"
+          placeholder="senha"
+        /><br />
+        <button id="btn">Submit</button>
+        <p id="resposta"></p>
+      </div>
+    </article>
+    <button class="btnCadastro" style="float: right">Cadastro</button>
+
+    <!-- pagina de cadastro -->
+    <article id="cadastro">
+      <h1>Cadastro</h1>
+      <form>
+        <label for="">Nome:</label>
+        <input id="nome" type="text" placeholder="Nome" /> <br />
+        <label for="cadLogin">Login: </label>
+        <input id="cadLogin" type="text" placeholder="Login" /><br />
+        <label for="cadSenha">Senha</label>
+        <input id="cadSenha" type="password" placeholder="**********" /><br />
+        <button id="cadBtn">Cadastro</button>
+      </form>
+      <a href=""><p onclick="loginn()">Voltar</p></a>
+    </article>
+    <!-- footer fim da pagina -->
+    <footer class="fim">
+      <!-- Copyright -->
+      <p class="txt-center">© 2020 Copyright: Eric Merchant</p>
+      <!-- Copyright -->
+    </footer>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

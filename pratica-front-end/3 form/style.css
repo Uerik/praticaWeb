@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+/* inicio container basico */
+.container-bor {
+  border-style: solid;
+}
+.container {
+  margin: 0 1% 0 5%;
+}
+/* fim container basico */
+
+/* inicio txt */
+.txt-center {
+  text-align: center;
+  margin: 0;
+}
+/* fim txt */
+/*inicio corpo form*/
+#corpo-form {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 300px;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;
+}
+/*fim corpo form*/
+/*inicio label*/
+#login {
+  margin-left: 31px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*fim label*/
+
+/*inicio input*/
+#lname,
+#lpassword {
+  border-radius: 5px;
+  margin: 2px;
+}
+#lname {
+  margin-left: 25px;
+}
+/*fim input*/
+
+/*inicio submit*/
+#btn {
+  float: right;
+}
+/*fim submit*/
+
+.btnCadastro {
+  color: white;
+  background-color: black;
+  border: solid black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btnCadastro:hover {
+  color: red;
+}
+
+/* cadastro */
+#cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  border: solid black;
+  width: 400px;
+}
+#cadastro form input {
+  margin: 2px;
+  border-radius: 5px;
+}
+#cadastro form button {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  /* float: right; */
+}
+#cadastro form button:hover {
+  color: red;
+}
+/* cadastro */
+/* inicio footer */
+.fim {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+/* fim footer */
