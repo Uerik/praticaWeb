@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#root {
+  display: flex;
+  justify-content: space-around;
+}
+.container {
+  border: solid black;
+  height: auto;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+}
+#titulo-data,
+#titulo-hora {
+  font-size: 50px;
+  color: white;
+  background-color: black;
+  margin: 0;
+  text-align: center;
+}
+#conteudo-data,
+#conteudo-hora {
+  font-size: 50px;
+  color: orange;
+  margin: 0;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+footer p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  #root {
+    display: flex;
+    flex-direction: column;
+  }
+}
