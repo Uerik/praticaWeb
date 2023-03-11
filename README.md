@@ -7,4 +7,4 @@ Projeto 3 - Formulario de login.
 Projeto 4 - Tabuada.
 Projeto 5 - Galeria/Display de imagens.
 Projeto 6 - Mostrar a data e a hora com js.
-Pro
+Proj
