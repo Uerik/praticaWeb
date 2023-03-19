@@ -8,4 +8,4 @@ Projeto 4 - Tabuada.
 Projeto 5 - Galeria/Display de imagens.
 Projeto 6 - Mostrar a data e a hora com js.
 Projeto 7 - 
-P
+Pr
